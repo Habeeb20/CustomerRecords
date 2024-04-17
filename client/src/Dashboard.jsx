@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { useState, useEffect } from 'react'
-import CustomerDetails from './components/customerDetails'
+// import CustomerDetails from './components/CustomerDetails'
 import { useCustomerContext } from './hooks/useCustomerHooks'
 import { Link } from 'react-router-dom'
 
@@ -23,9 +23,9 @@ const Dashboard = () => {
   return (
     <div className="home">
       <div className="workout">
-        {customer && customer.map((customer) => (
+        {/* {customer && customer.map((customer) => (
           <CustomerDetails key={customer._id} customer={customer} />
-        ))}
+        ))} */}
 
       </div>
       <Link to="/customerForm"><h4>Add CustomerDetails</h4></Link>
