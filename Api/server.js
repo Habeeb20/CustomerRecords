@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import express from 'express';
 import cors from 'cors';
 import router from './Routes/customerRoutes.js';
+import path from 'path'
 dotenv.config()
 
 const app = express();
