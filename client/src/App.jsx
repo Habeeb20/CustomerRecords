@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -7,6 +8,7 @@ import {
 import Home from './Home';
 import Dashboard from './Dashboard';
 import { RedirectToSignIn, SignedIn, SignedOut } from '@clerk/clerk-react';
+import customerForm from './components/customerForm';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +28,8 @@ const router = createBrowserRouter(
           </>
         }
       />
+      <Route path='/customerForm' element={<customerForm />} />
+
     </>
   )
 );
