@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { useState, useEffect } from 'react'
-import CustomerDetails from './components/CustomerDetails'
+import CustomerDetails from './components/customerDetails'
 import { useCustomerContext } from './hooks/useCustomerHooks'
 import { Link } from 'react-router-dom'
 
