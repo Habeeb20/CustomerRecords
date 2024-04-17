@@ -1,12 +1,12 @@
 {
-  "name": "api",
+  "name": "Api",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon Api/server.js",
-    "start": "node Api/server.js",
+    "start":"node Api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"npm install && npm install --prefix client && npm run build --prefix client"
 
